@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Assembly>
+  <Method Name="Roniz.Networking.Service.ServiceResolver..ctor()">
+    <Outcome Kind="Requires" Outcome="Top" Message="requires unproven: hearthBitInterval.TotalMilliseconds &gt; 0 (The hearthBitInterval.TotalMilliseconds should be &gt; 0)" PrimaryILOffset="45" MethodILOffset="3f" />
+    <Outcome Kind="Requires" Outcome="Top" Message="requires unproven: hearthBitInterval.TotalMilliseconds * 2 &lt; Int32.MaxValue (The hearthBitInterval.TotalMilliseconds should not pass (Int32.MaxValue / 2))" PrimaryILOffset="70" MethodILOffset="3f" />
+  </Method>
+</Assembly>

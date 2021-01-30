@@ -1,0 +1,177 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Roniz.Networking.Service", "Service\Roniz.Networking.Service.csproj", "{96B63E05-8455-4262-AF4A-680BE9C73B72}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Roniz.Networking.Client", "Client\Roniz.Networking.Client.csproj", "{7821A039-7A65-4071-99B8-2D3347E9BDDF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Roniz.Networking.Common", "Common\Roniz.Networking.Common.csproj", "{C1C1AFE4-67A7-464F-90E1-568211E42659}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Roniz.Networking.Client.Test.Console", "Client.Test.Console\Roniz.Networking.Client.Test.Console.csproj", "{6EF279FE-6F1B-432E-8D4E-EDCA3B04FB83}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Roniz.Networking.Service.Host.Console", "Service.Host.Console\Roniz.Networking.Service.Host.Console.csproj", "{EA5A89B2-2CB9-43DF-BC91-973833C74B1A}"
+EndProject
+Project("{F088123C-0E9E-452A-89E6-6BA2F21D5CAC}") = "Roniz.Networking.Modeling", "Modeling\Roniz.Networking.Modeling.modelproj", "{9E3E0B9A-DA22-40ED-8B6E-79A55198E221}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documents", "Documents", "{49C41440-CEBF-4B53-8E0F-BA71435F57B5}"
+	ProjectSection(SolutionItems) = preProject
+		Documents\How to deploy client side.rtf = Documents\How to deploy client side.rtf
+		Documents\How to deploy service side.rtf = Documents\How to deploy service side.rtf
+		Todo.txt = Todo.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Packages", "Packages", "{F4C389FF-D950-41B9-A125-A68A67BE60F0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0628E07E-D402-44C1-8B5E-1F92877C1726}"
+	ProjectSection(SolutionItems) = preProject
+		AssemblyInfo.cs = AssemblyInfo.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Client", "Client", "{6BF698ED-DD82-4053-8BB6-239DC81066C6}"
+	ProjectSection(SolutionItems) = preProject
+		packages\client\app.config.transform = packages\client\app.config.transform
+		packages\client\Install.ps1 = packages\client\Install.ps1
+		packages\client\package.nuspec = packages\client\package.nuspec
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Server", "Server", "{7CFF9F88-9C90-4B39-B213-36B56AB0BA7C}"
+	ProjectSection(SolutionItems) = preProject
+		packages\server\app.config.transform = packages\server\app.config.transform
+		packages\server\Install.ps1 = packages\server\Install.ps1
+		packages\server\package.nuspec = packages\server\package.nuspec
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Roniz.Networking.Service.Host.WindowService", "Service.Host.WindowService\Roniz.Networking.Service.Host.WindowService.csproj", "{3DA5FB4B-B89A-4D4E-9F19-5EC2615ABF11}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Service.Host.WindowService.Setup", "Service.Host.WindowService.Setup\Service.Host.WindowService.Setup.vdproj", "{99A8112C-1ED7-418C-AEEB-C04ACEEFD9F2}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 9
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs.codeplex.com/tfs/tfs26
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Service\\Roniz.Networking.Service.csproj
+		SccProjectName1 = Service
+		SccLocalPath1 = Service
+		SccProjectUniqueName2 = Client\\Roniz.Networking.Client.csproj
+		SccProjectName2 = Client
+		SccLocalPath2 = Client
+		SccProjectUniqueName3 = Common\\Roniz.Networking.Common.csproj
+		SccProjectName3 = Common
+		SccLocalPath3 = Common
+		SccProjectUniqueName4 = Client.Test.Console\\Roniz.Networking.Client.Test.Console.csproj
+		SccProjectName4 = Client.Test.Console
+		SccLocalPath4 = Client.Test.Console
+		SccProjectUniqueName5 = Service.Host.Console\\Roniz.Networking.Service.Host.Console.csproj
+		SccProjectName5 = Service.Host.Console
+		SccLocalPath5 = Service.Host.Console
+		SccProjectUniqueName6 = Modeling\\Roniz.Networking.Modeling.modelproj
+		SccProjectName6 = Modeling
+		SccLocalPath6 = Modeling
+		SccProjectUniqueName7 = Service.Host.WindowService\\Roniz.Networking.Service.Host.WindowService.csproj
+		SccProjectName7 = Service.Host.WindowService
+		SccLocalPath7 = Service.Host.WindowService
+		SccProjectUniqueName8 = Service.Host.WindowService.Setup\\Service.Host.WindowService.Setup.vdproj
+		SccProjectName8 = Service.Host.WindowService.Setup
+		SccLocalPath8 = Service.Host.WindowService.Setup
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{96B63E05-8455-4262-AF4A-680BE9C73B72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96B63E05-8455-4262-AF4A-680BE9C73B72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96B63E05-8455-4262-AF4A-680BE9C73B72}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{96B63E05-8455-4262-AF4A-680BE9C73B72}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{96B63E05-8455-4262-AF4A-680BE9C73B72}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{96B63E05-8455-4262-AF4A-680BE9C73B72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96B63E05-8455-4262-AF4A-680BE9C73B72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96B63E05-8455-4262-AF4A-680BE9C73B72}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{96B63E05-8455-4262-AF4A-680BE9C73B72}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{96B63E05-8455-4262-AF4A-680BE9C73B72}.Release|x86.ActiveCfg = Release|Any CPU
+		{7821A039-7A65-4071-99B8-2D3347E9BDDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7821A039-7A65-4071-99B8-2D3347E9BDDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7821A039-7A65-4071-99B8-2D3347E9BDDF}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{7821A039-7A65-4071-99B8-2D3347E9BDDF}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{7821A039-7A65-4071-99B8-2D3347E9BDDF}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{7821A039-7A65-4071-99B8-2D3347E9BDDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7821A039-7A65-4071-99B8-2D3347E9BDDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7821A039-7A65-4071-99B8-2D3347E9BDDF}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{7821A039-7A65-4071-99B8-2D3347E9BDDF}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{7821A039-7A65-4071-99B8-2D3347E9BDDF}.Release|x86.ActiveCfg = Release|Any CPU
+		{C1C1AFE4-67A7-464F-90E1-568211E42659}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1C1AFE4-67A7-464F-90E1-568211E42659}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1C1AFE4-67A7-464F-90E1-568211E42659}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{C1C1AFE4-67A7-464F-90E1-568211E42659}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{C1C1AFE4-67A7-464F-90E1-568211E42659}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{C1C1AFE4-67A7-464F-90E1-568211E42659}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1C1AFE4-67A7-464F-90E1-568211E42659}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1C1AFE4-67A7-464F-90E1-568211E42659}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{C1C1AFE4-67A7-464F-90E1-568211E42659}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{C1C1AFE4-67A7-464F-90E1-568211E42659}.Release|x86.ActiveCfg = Release|Any CPU
+		{6EF279FE-6F1B-432E-8D4E-EDCA3B04FB83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EF279FE-6F1B-432E-8D4E-EDCA3B04FB83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EF279FE-6F1B-432E-8D4E-EDCA3B04FB83}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{6EF279FE-6F1B-432E-8D4E-EDCA3B04FB83}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{6EF279FE-6F1B-432E-8D4E-EDCA3B04FB83}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{6EF279FE-6F1B-432E-8D4E-EDCA3B04FB83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EF279FE-6F1B-432E-8D4E-EDCA3B04FB83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EF279FE-6F1B-432E-8D4E-EDCA3B04FB83}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{6EF279FE-6F1B-432E-8D4E-EDCA3B04FB83}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{6EF279FE-6F1B-432E-8D4E-EDCA3B04FB83}.Release|x86.ActiveCfg = Release|Any CPU
+		{EA5A89B2-2CB9-43DF-BC91-973833C74B1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA5A89B2-2CB9-43DF-BC91-973833C74B1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA5A89B2-2CB9-43DF-BC91-973833C74B1A}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{EA5A89B2-2CB9-43DF-BC91-973833C74B1A}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{EA5A89B2-2CB9-43DF-BC91-973833C74B1A}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{EA5A89B2-2CB9-43DF-BC91-973833C74B1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA5A89B2-2CB9-43DF-BC91-973833C74B1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA5A89B2-2CB9-43DF-BC91-973833C74B1A}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{EA5A89B2-2CB9-43DF-BC91-973833C74B1A}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{EA5A89B2-2CB9-43DF-BC91-973833C74B1A}.Release|x86.ActiveCfg = Release|Any CPU
+		{9E3E0B9A-DA22-40ED-8B6E-79A55198E221}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E3E0B9A-DA22-40ED-8B6E-79A55198E221}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E3E0B9A-DA22-40ED-8B6E-79A55198E221}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{9E3E0B9A-DA22-40ED-8B6E-79A55198E221}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{9E3E0B9A-DA22-40ED-8B6E-79A55198E221}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{9E3E0B9A-DA22-40ED-8B6E-79A55198E221}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E3E0B9A-DA22-40ED-8B6E-79A55198E221}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E3E0B9A-DA22-40ED-8B6E-79A55198E221}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{9E3E0B9A-DA22-40ED-8B6E-79A55198E221}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{9E3E0B9A-DA22-40ED-8B6E-79A55198E221}.Release|x86.ActiveCfg = Release|Any CPU
+		{3DA5FB4B-B89A-4D4E-9F19-5EC2615ABF11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DA5FB4B-B89A-4D4E-9F19-5EC2615ABF11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DA5FB4B-B89A-4D4E-9F19-5EC2615ABF11}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{3DA5FB4B-B89A-4D4E-9F19-5EC2615ABF11}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{3DA5FB4B-B89A-4D4E-9F19-5EC2615ABF11}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{3DA5FB4B-B89A-4D4E-9F19-5EC2615ABF11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DA5FB4B-B89A-4D4E-9F19-5EC2615ABF11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DA5FB4B-B89A-4D4E-9F19-5EC2615ABF11}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{3DA5FB4B-B89A-4D4E-9F19-5EC2615ABF11}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{3DA5FB4B-B89A-4D4E-9F19-5EC2615ABF11}.Release|x86.ActiveCfg = Release|Any CPU
+		{99A8112C-1ED7-418C-AEEB-C04ACEEFD9F2}.Debug|Any CPU.ActiveCfg = Debug
+		{99A8112C-1ED7-418C-AEEB-C04ACEEFD9F2}.Debug|Mixed Platforms.ActiveCfg = Debug
+		{99A8112C-1ED7-418C-AEEB-C04ACEEFD9F2}.Debug|x86.ActiveCfg = Debug
+		{99A8112C-1ED7-418C-AEEB-C04ACEEFD9F2}.Release|Any CPU.ActiveCfg = Release
+		{99A8112C-1ED7-418C-AEEB-C04ACEEFD9F2}.Release|Mixed Platforms.ActiveCfg = Release
+		{99A8112C-1ED7-418C-AEEB-C04ACEEFD9F2}.Release|x86.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6BF698ED-DD82-4053-8BB6-239DC81066C6} = {F4C389FF-D950-41B9-A125-A68A67BE60F0}
+		{7CFF9F88-9C90-4B39-B213-36B56AB0BA7C} = {F4C389FF-D950-41B9-A125-A68A67BE60F0}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		BuildVersion_AssemblyInfoFilename = AssemblyInfo.cs
+		BuildVersion_UpdateAssemblyVersion = True
+		BuildVersion_UpdateFileVersion = True
+	EndGlobalSection
+EndGlobal

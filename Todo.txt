@@ -1,0 +1,8 @@
+* Changing of address after first resolve.
+* service mode that cache the results , determine changes , and response faster to other clients (than client that need to open p2p...)
+Something that maybe will called Roniz.Networking.CacheClientService (client because its the client side - service because it should act as service for other clients ?)
+This service will also have the option to host the Roniz.Networking.Service (if its network topology allow incoming messages)
+* UI that show all services.
+* Installation of the service as NT service
+* Installation of the client ?
+* support for OS that cannot work with P2P

@@ -1,0 +1,1300 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modelStoreModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner"
+  dslVersion="1.0.0.0"
+  Id="bb6fe7fd-031d-4a5e-99d8-6f40d091c24a"
+  name="Roniz.Networking.Modeling" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <profileInstances>
+    <packageHasProfileInstances
+      Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b">
+      <profileInstance
+        Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791"
+        name="StandardProfileL2" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances
+      Id="29349502-908c-4fda-9054-c48619c59ed0">
+      <profileInstance
+        Id="532ea607-fb19-44b8-8502-3351b05452be"
+        name="StandardProfileL3" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <useCase
+        Id="eba38cac-975e-473c-be20-4f025c1a3fc5"
+        name="Client Resolve"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <interaction
+        Id="71ac6cf8-e59a-42e0-bd63-e8411e86b5e6"
+        name="ClientSequenceDiagram"
+        collapseFragmentsFlag="false"
+        isActiveClass="false"
+        isAbstract="false"
+        isLeaf="false"
+        isReentrant="false">
+        <fragments>
+          <messageOccurrenceSpecification
+            Id="a3d3380f-e859-4c2d-97c8-c298b9d3e151"
+            name="MessageOccurrenceSpecification13">
+            <covered>
+              <lifelineMoniker
+                Id="59a674ff-1b40-401f-8a2d-d8f3a1467031"
+                LastKnownName="Service Resolver"
+                LastKnownLocation="Roniz.Networking.Modeling.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="87fab514-68ba-45aa-8f02-a3dc682f94df"
+            name="MessageOccurrenceSpecification14">
+            <covered>
+              <lifelineMoniker
+                Id="9e482c29-e321-46ae-bf95-63719820aa48"
+                LastKnownName="Client"
+                LastKnownLocation="Roniz.Networking.Modeling.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="25c26727-9e25-450f-8813-be61036a1044"
+            name="MessageOccurrenceSpecification3">
+            <covered>
+              <lifelineMoniker
+                Id="7382eb96-1de0-471a-889d-068d3f485133"
+                LastKnownName="Peer Mesh"
+                LastKnownLocation="Roniz.Networking.Modeling.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="18e936f8-29b5-467c-b5f9-2af4722ae1e3"
+            name="MessageOccurrenceSpecification4">
+            <covered>
+              <lifelineMoniker
+                Id="9e482c29-e321-46ae-bf95-63719820aa48"
+                LastKnownName="Client"
+                LastKnownLocation="Roniz.Networking.Modeling.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="8307d68c-a17c-4572-a11d-88bd7ae9c692"
+            name="MessageOccurrenceSpecification12">
+            <covered>
+              <lifelineMoniker
+                Id="59a674ff-1b40-401f-8a2d-d8f3a1467031"
+                LastKnownName="Service Resolver"
+                LastKnownLocation="Roniz.Networking.Modeling.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="c3f436ba-c1d8-4c48-82ed-3e0c4fb3a038"
+            name="MessageOccurrenceSpecification11">
+            <covered>
+              <lifelineMoniker
+                Id="9e482c29-e321-46ae-bf95-63719820aa48"
+                LastKnownName="Client"
+                LastKnownLocation="Roniz.Networking.Modeling.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="c88d5aac-8392-451a-a61c-e93286a41059"
+            name="MessageOccurrenceSpecification2">
+            <covered>
+              <lifelineMoniker
+                Id="7382eb96-1de0-471a-889d-068d3f485133"
+                LastKnownName="Peer Mesh"
+                LastKnownLocation="Roniz.Networking.Modeling.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="836db587-c7b4-45ff-a89f-18bbc90e2349"
+            name="MessageOccurrenceSpecification1">
+            <covered>
+              <lifelineMoniker
+                Id="9e482c29-e321-46ae-bf95-63719820aa48"
+                LastKnownName="Client"
+                LastKnownLocation="Roniz.Networking.Modeling.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="16614bed-370d-4212-bd72-3394b9d60c76"
+            name="BehaviorExecutionSpecification1">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="7382eb96-1de0-471a-889d-068d3f485133"
+                LastKnownName="Peer Mesh"
+                LastKnownLocation="Roniz.Networking.Modeling.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="6fde8b06-b440-4b16-b4fe-76d51485a456"
+                LastKnownName="ExecutionOccurrenceSpecification2"
+                LastKnownLocation="Roniz.Networking.Modeling.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="179a5e49-963a-4b0c-9563-f21792cc87b0"
+                LastKnownName="ExecutionOccurrenceSpecification1"
+                LastKnownLocation="Roniz.Networking.Modeling.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="c88d5aac-8392-451a-a61c-e93286a41059"
+                LastKnownName="MessageOccurrenceSpecification2"
+                LastKnownLocation="Roniz.Networking.Modeling.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="25c26727-9e25-450f-8813-be61036a1044"
+                LastKnownName="MessageOccurrenceSpecification3"
+                LastKnownLocation="Roniz.Networking.Modeling.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="179a5e49-963a-4b0c-9563-f21792cc87b0"
+            name="ExecutionOccurrenceSpecification1">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="80f94863-1621-4f60-86a6-29034e4c5fb5"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="Roniz.Networking.Modeling.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="7382eb96-1de0-471a-889d-068d3f485133"
+                LastKnownName="Peer Mesh"
+                LastKnownLocation="Roniz.Networking.Modeling.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="56c7bc18-1f4a-43ff-acb4-39cb99ccb2c3"
+            name="BehaviorExecutionSpecification2">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="9e482c29-e321-46ae-bf95-63719820aa48"
+                LastKnownName="Client"
+                LastKnownLocation="Roniz.Networking.Modeling.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="0e2d9041-5207-4f4c-b298-90e35b42233e"
+                LastKnownName="ExecutionOccurrenceSpecification4"
+                LastKnownLocation="Roniz.Networking.Modeling.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="4ac788bf-e25f-44ee-a705-f50c702e19b0"
+                LastKnownName="ExecutionOccurrenceSpecification3"
+                LastKnownLocation="Roniz.Networking.Modeling.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="18e936f8-29b5-467c-b5f9-2af4722ae1e3"
+                LastKnownName="MessageOccurrenceSpecification4"
+                LastKnownLocation="Roniz.Networking.Modeling.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="c3f436ba-c1d8-4c48-82ed-3e0c4fb3a038"
+                LastKnownName="MessageOccurrenceSpecification11"
+                LastKnownLocation="Roniz.Networking.Modeling.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="87fab514-68ba-45aa-8f02-a3dc682f94df"
+                LastKnownName="MessageOccurrenceSpecification14"
+                LastKnownLocation="Roniz.Networking.Modeling.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="4ac788bf-e25f-44ee-a705-f50c702e19b0"
+            name="ExecutionOccurrenceSpecification3">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="745b44d7-0ab6-4bb9-aa27-b08749e14d0a"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="Roniz.Networking.Modeling.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="9e482c29-e321-46ae-bf95-63719820aa48"
+                LastKnownName="Client"
+                LastKnownLocation="Roniz.Networking.Modeling.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="d24507b0-cb05-4f67-b936-ef9fbddc6a8e"
+            name="BehaviorExecutionSpecification5">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="59a674ff-1b40-401f-8a2d-d8f3a1467031"
+                LastKnownName="Service Resolver"
+                LastKnownLocation="Roniz.Networking.Modeling.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="9692b821-81e9-4c21-adb5-657986b58d89"
+                LastKnownName="ExecutionOccurrenceSpecification10"
+                LastKnownLocation="Roniz.Networking.Modeling.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="754fc46f-cbd9-4077-bac8-e33287ad7c63"
+                LastKnownName="ExecutionOccurrenceSpecification9"
+                LastKnownLocation="Roniz.Networking.Modeling.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="8307d68c-a17c-4572-a11d-88bd7ae9c692"
+                LastKnownName="MessageOccurrenceSpecification12"
+                LastKnownLocation="Roniz.Networking.Modeling.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="a3d3380f-e859-4c2d-97c8-c298b9d3e151"
+                LastKnownName="MessageOccurrenceSpecification13"
+                LastKnownLocation="Roniz.Networking.Modeling.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="6fde8b06-b440-4b16-b4fe-76d51485a456"
+            name="ExecutionOccurrenceSpecification2">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="7add988a-3438-4d7a-9757-4ab5e52aaef5"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="Roniz.Networking.Modeling.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="7382eb96-1de0-471a-889d-068d3f485133"
+                LastKnownName="Peer Mesh"
+                LastKnownLocation="Roniz.Networking.Modeling.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="754fc46f-cbd9-4077-bac8-e33287ad7c63"
+            name="ExecutionOccurrenceSpecification9">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="81bf904d-6359-4bd3-a68f-7ef9d65318b3"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="Roniz.Networking.Modeling.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="59a674ff-1b40-401f-8a2d-d8f3a1467031"
+                LastKnownName="Service Resolver"
+                LastKnownLocation="Roniz.Networking.Modeling.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="9692b821-81e9-4c21-adb5-657986b58d89"
+            name="ExecutionOccurrenceSpecification10">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="b1d2e690-69be-4f7d-8785-d56463c444ca"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="Roniz.Networking.Modeling.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="59a674ff-1b40-401f-8a2d-d8f3a1467031"
+                LastKnownName="Service Resolver"
+                LastKnownLocation="Roniz.Networking.Modeling.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="0e2d9041-5207-4f4c-b298-90e35b42233e"
+            name="ExecutionOccurrenceSpecification4">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="71429706-22f1-4dd9-96d7-69133f4f200a"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="Roniz.Networking.Modeling.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="9e482c29-e321-46ae-bf95-63719820aa48"
+                LastKnownName="Client"
+                LastKnownLocation="Roniz.Networking.Modeling.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+        </fragments>
+        <lifelines>
+          <lifeline
+            Id="9e482c29-e321-46ae-bf95-63719820aa48"
+            name="Client"
+            isActor="false"
+            lifelineDisplayName="Client">
+            <topLevelOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="836db587-c7b4-45ff-a89f-18bbc90e2349"
+                LastKnownName="MessageOccurrenceSpecification1"
+                LastKnownLocation="Roniz.Networking.Modeling.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="4ac788bf-e25f-44ee-a705-f50c702e19b0"
+                LastKnownName="ExecutionOccurrenceSpecification3"
+                LastKnownLocation="Roniz.Networking.Modeling.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="0e2d9041-5207-4f4c-b298-90e35b42233e"
+                LastKnownName="ExecutionOccurrenceSpecification4"
+                LastKnownLocation="Roniz.Networking.Modeling.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline
+            Id="7382eb96-1de0-471a-889d-068d3f485133"
+            name="Peer Mesh"
+            isActor="false"
+            lifelineDisplayName="Peer Mesh">
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker
+                Id="179a5e49-963a-4b0c-9563-f21792cc87b0"
+                LastKnownName="ExecutionOccurrenceSpecification1"
+                LastKnownLocation="Roniz.Networking.Modeling.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="6fde8b06-b440-4b16-b4fe-76d51485a456"
+                LastKnownName="ExecutionOccurrenceSpecification2"
+                LastKnownLocation="Roniz.Networking.Modeling.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline
+            Id="59a674ff-1b40-401f-8a2d-d8f3a1467031"
+            name="Service Resolver"
+            isActor="false"
+            lifelineDisplayName="Service Resolver">
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker
+                Id="754fc46f-cbd9-4077-bac8-e33287ad7c63"
+                LastKnownName="ExecutionOccurrenceSpecification9"
+                LastKnownLocation="Roniz.Networking.Modeling.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="9692b821-81e9-4c21-adb5-657986b58d89"
+                LastKnownName="ExecutionOccurrenceSpecification10"
+                LastKnownLocation="Roniz.Networking.Modeling.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+        </lifelines>
+        <messages>
+          <message
+            Id="e917b775-6dbb-4e23-9dbe-137c447311a3"
+            name="ask for service resolvers"
+            messageKind="Complete"
+            messageSort="AsynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="836db587-c7b4-45ff-a89f-18bbc90e2349"
+                LastKnownName="MessageOccurrenceSpecification1"
+                LastKnownLocation="Roniz.Networking.Modeling.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="c88d5aac-8392-451a-a61c-e93286a41059"
+                LastKnownName="MessageOccurrenceSpecification2"
+                LastKnownLocation="Roniz.Networking.Modeling.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="30f58bc5-7969-4fb9-8b8c-91392f29f7a0"
+            name="response service resolvers addresses"
+            messageKind="Complete"
+            messageSort="AsynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="25c26727-9e25-450f-8813-be61036a1044"
+                LastKnownName="MessageOccurrenceSpecification3"
+                LastKnownLocation="Roniz.Networking.Modeling.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="18e936f8-29b5-467c-b5f9-2af4722ae1e3"
+                LastKnownName="MessageOccurrenceSpecification4"
+                LastKnownLocation="Roniz.Networking.Modeling.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="edc6550e-f5db-4971-a5b6-f30cfd812eb6"
+            name="Try resolve external network info"
+            messageKind="Complete"
+            messageSort="CreateMessage"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="c3f436ba-c1d8-4c48-82ed-3e0c4fb3a038"
+                LastKnownName="MessageOccurrenceSpecification11"
+                LastKnownLocation="Roniz.Networking.Modeling.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="8307d68c-a17c-4572-a11d-88bd7ae9c692"
+                LastKnownName="MessageOccurrenceSpecification12"
+                LastKnownLocation="Roniz.Networking.Modeling.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="79227611-077d-4993-bb5a-5173115d1a3a"
+            name="return netowrk info"
+            messageKind="Complete"
+            messageSort="Reply"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="a3d3380f-e859-4c2d-97c8-c298b9d3e151"
+                LastKnownName="MessageOccurrenceSpecification13"
+                LastKnownLocation="Roniz.Networking.Modeling.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="87fab514-68ba-45aa-8f02-a3dc682f94df"
+                LastKnownName="MessageOccurrenceSpecification14"
+                LastKnownLocation="Roniz.Networking.Modeling.uml" />
+            </receiveEvent>
+          </message>
+        </messages>
+      </interaction>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="80f94863-1621-4f60-86a6-29034e4c5fb5"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="7add988a-3438-4d7a-9757-4ab5e52aaef5"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="745b44d7-0ab6-4bb9-aa27-b08749e14d0a"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="71429706-22f1-4dd9-96d7-69133f4f200a"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="81bf904d-6359-4bd3-a68f-7ef9d65318b3"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="b1d2e690-69be-4f7d-8785-d56463c444ca"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <interaction
+        Id="8f001113-1741-4adf-a29e-5d84d5c122b5"
+        name="ServiceSequenceDiagram"
+        collapseFragmentsFlag="false"
+        isActiveClass="false"
+        isAbstract="false"
+        isLeaf="false"
+        isReentrant="false">
+        <fragments>
+          <messageOccurrenceSpecification
+            Id="c30a0097-ccdb-4d30-afe9-8dfcc5bc6eb8"
+            name="MessageOccurrenceSpecification3">
+            <covered>
+              <lifelineMoniker
+                Id="b1eb428a-b33a-46eb-a9a5-3214e740ff5b"
+                LastKnownName="Service"
+                LastKnownLocation="Roniz.Networking.Modeling.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="42105d8f-2763-4381-8c2e-46234a8a0775"
+            name="BehaviorExecutionSpecification2">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="b1eb428a-b33a-46eb-a9a5-3214e740ff5b"
+                LastKnownName="Service"
+                LastKnownLocation="Roniz.Networking.Modeling.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="609eabf9-b1b9-47ca-bd6e-a3e0fa9f8b77"
+                LastKnownName="ExecutionOccurrenceSpecification4"
+                LastKnownLocation="Roniz.Networking.Modeling.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="c65f6123-184f-4395-920b-a8c86e7970ba"
+                LastKnownName="ExecutionOccurrenceSpecification3"
+                LastKnownLocation="Roniz.Networking.Modeling.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="9da36bba-63d6-4960-bc43-90dc08bbc42f"
+                LastKnownName="MessageOccurrenceSpecification4"
+                LastKnownLocation="Roniz.Networking.Modeling.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="cbeee42d-02ab-4119-978c-8ecc71e15566"
+                LastKnownName="MessageOccurrenceSpecification5"
+                LastKnownLocation="Roniz.Networking.Modeling.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="c65f6123-184f-4395-920b-a8c86e7970ba"
+            name="ExecutionOccurrenceSpecification3">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="56777658-1a8b-476b-9192-b91d87552231"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="Roniz.Networking.Modeling.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="b1eb428a-b33a-46eb-a9a5-3214e740ff5b"
+                LastKnownName="Service"
+                LastKnownLocation="Roniz.Networking.Modeling.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="9da36bba-63d6-4960-bc43-90dc08bbc42f"
+            name="MessageOccurrenceSpecification4">
+            <covered>
+              <lifelineMoniker
+                Id="b1eb428a-b33a-46eb-a9a5-3214e740ff5b"
+                LastKnownName="Service"
+                LastKnownLocation="Roniz.Networking.Modeling.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="643fd09a-33d8-45bb-b546-1202704e472d"
+            name="BehaviorExecutionSpecification3">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="f58408bf-31e7-4af1-b11f-2fac1d5a6558"
+                LastKnownName="Peer Mesh"
+                LastKnownLocation="Roniz.Networking.Modeling.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="9764cdb7-2d75-4ca2-a7f0-53b02bf2a946"
+                LastKnownName="ExecutionOccurrenceSpecification6"
+                LastKnownLocation="Roniz.Networking.Modeling.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="5c60f5d3-04d4-4dd5-9e43-db6d33c24587"
+                LastKnownName="ExecutionOccurrenceSpecification5"
+                LastKnownLocation="Roniz.Networking.Modeling.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="328a5893-568c-4db4-8600-90876939e5f2"
+                LastKnownName="MessageOccurrenceSpecification6"
+                LastKnownLocation="Roniz.Networking.Modeling.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="5c60f5d3-04d4-4dd5-9e43-db6d33c24587"
+            name="ExecutionOccurrenceSpecification5">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="757c6aad-5c1e-45f3-ae65-95ece9daa2ae"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="Roniz.Networking.Modeling.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="f58408bf-31e7-4af1-b11f-2fac1d5a6558"
+                LastKnownName="Peer Mesh"
+                LastKnownLocation="Roniz.Networking.Modeling.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="328a5893-568c-4db4-8600-90876939e5f2"
+            name="MessageOccurrenceSpecification6">
+            <covered>
+              <lifelineMoniker
+                Id="f58408bf-31e7-4af1-b11f-2fac1d5a6558"
+                LastKnownName="Peer Mesh"
+                LastKnownLocation="Roniz.Networking.Modeling.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="cbeee42d-02ab-4119-978c-8ecc71e15566"
+            name="MessageOccurrenceSpecification5">
+            <covered>
+              <lifelineMoniker
+                Id="b1eb428a-b33a-46eb-a9a5-3214e740ff5b"
+                LastKnownName="Service"
+                LastKnownLocation="Roniz.Networking.Modeling.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="609eabf9-b1b9-47ca-bd6e-a3e0fa9f8b77"
+            name="ExecutionOccurrenceSpecification4">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="a611e8ba-811a-4f1f-83fc-f3763ae28941"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="Roniz.Networking.Modeling.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="b1eb428a-b33a-46eb-a9a5-3214e740ff5b"
+                LastKnownName="Service"
+                LastKnownLocation="Roniz.Networking.Modeling.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="9764cdb7-2d75-4ca2-a7f0-53b02bf2a946"
+            name="ExecutionOccurrenceSpecification6">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="fc465c07-5b41-4d2b-bdf0-857f9e5da543"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="Roniz.Networking.Modeling.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="f58408bf-31e7-4af1-b11f-2fac1d5a6558"
+                LastKnownName="Peer Mesh"
+                LastKnownLocation="Roniz.Networking.Modeling.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="faa977ae-0746-404c-9d1f-5ef8484ee65e"
+            name="BehaviorExecutionSpecification4">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="f58408bf-31e7-4af1-b11f-2fac1d5a6558"
+                LastKnownName="Peer Mesh"
+                LastKnownLocation="Roniz.Networking.Modeling.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="fd04a9ea-d1ae-4dd0-8ab2-560fa4783209"
+                LastKnownName="ExecutionOccurrenceSpecification8"
+                LastKnownLocation="Roniz.Networking.Modeling.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="8dc658f6-dcba-455b-9045-3dea6a9b8c1b"
+                LastKnownName="ExecutionOccurrenceSpecification7"
+                LastKnownLocation="Roniz.Networking.Modeling.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="616fafbb-9592-43c4-8bd6-1fea904faa52"
+                LastKnownName="MessageOccurrenceSpecification8"
+                LastKnownLocation="Roniz.Networking.Modeling.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="8dc658f6-dcba-455b-9045-3dea6a9b8c1b"
+            name="ExecutionOccurrenceSpecification7">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="f2a01452-fce0-49e3-92ff-1f1e35a93c19"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="Roniz.Networking.Modeling.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="f58408bf-31e7-4af1-b11f-2fac1d5a6558"
+                LastKnownName="Peer Mesh"
+                LastKnownLocation="Roniz.Networking.Modeling.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="8a88637b-1a39-42d3-b48c-ef303d8b6fba"
+            name="MessageOccurrenceSpecification7">
+            <covered>
+              <lifelineMoniker
+                Id="b1eb428a-b33a-46eb-a9a5-3214e740ff5b"
+                LastKnownName="Service"
+                LastKnownLocation="Roniz.Networking.Modeling.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="616fafbb-9592-43c4-8bd6-1fea904faa52"
+            name="MessageOccurrenceSpecification8">
+            <covered>
+              <lifelineMoniker
+                Id="f58408bf-31e7-4af1-b11f-2fac1d5a6558"
+                LastKnownName="Peer Mesh"
+                LastKnownLocation="Roniz.Networking.Modeling.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="fd04a9ea-d1ae-4dd0-8ab2-560fa4783209"
+            name="ExecutionOccurrenceSpecification8">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="321c6b0a-8606-4cc0-b272-d330acbf5e1c"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="Roniz.Networking.Modeling.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="f58408bf-31e7-4af1-b11f-2fac1d5a6558"
+                LastKnownName="Peer Mesh"
+                LastKnownLocation="Roniz.Networking.Modeling.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="cc8e3b3a-7be5-461c-89bc-a4d38fe4445c"
+            name="BehaviorExecutionSpecification6">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="b1eb428a-b33a-46eb-a9a5-3214e740ff5b"
+                LastKnownName="Service"
+                LastKnownLocation="Roniz.Networking.Modeling.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="02a38044-fdb9-4939-a268-05dbaa7b5ca3"
+                LastKnownName="ExecutionOccurrenceSpecification12"
+                LastKnownLocation="Roniz.Networking.Modeling.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="49e934c0-4e57-4bdb-98c5-79202f9bc010"
+                LastKnownName="ExecutionOccurrenceSpecification11"
+                LastKnownLocation="Roniz.Networking.Modeling.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="d7558703-6287-4109-b105-735564cde21e"
+                LastKnownName="MessageOccurrenceSpecification14"
+                LastKnownLocation="Roniz.Networking.Modeling.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="49e934c0-4e57-4bdb-98c5-79202f9bc010"
+            name="ExecutionOccurrenceSpecification11">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="1e7b10c1-f905-4bb6-b7e5-5193b418949a"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="Roniz.Networking.Modeling.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="b1eb428a-b33a-46eb-a9a5-3214e740ff5b"
+                LastKnownName="Service"
+                LastKnownLocation="Roniz.Networking.Modeling.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="0c1a65d0-0201-4635-825c-f1be931e98ef"
+            name="MessageOccurrenceSpecification13">
+            <covered>
+              <lifelineMoniker
+                Id="f58408bf-31e7-4af1-b11f-2fac1d5a6558"
+                LastKnownName="Peer Mesh"
+                LastKnownLocation="Roniz.Networking.Modeling.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="d7558703-6287-4109-b105-735564cde21e"
+            name="MessageOccurrenceSpecification14">
+            <covered>
+              <lifelineMoniker
+                Id="b1eb428a-b33a-46eb-a9a5-3214e740ff5b"
+                LastKnownName="Service"
+                LastKnownLocation="Roniz.Networking.Modeling.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="02a38044-fdb9-4939-a268-05dbaa7b5ca3"
+            name="ExecutionOccurrenceSpecification12">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="08bcff57-46c2-4972-b1da-40910c8dc942"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="Roniz.Networking.Modeling.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="b1eb428a-b33a-46eb-a9a5-3214e740ff5b"
+                LastKnownName="Service"
+                LastKnownLocation="Roniz.Networking.Modeling.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="d583264e-1c5a-4911-835d-99389232acc3"
+            name="BehaviorExecutionSpecification7">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="f58408bf-31e7-4af1-b11f-2fac1d5a6558"
+                LastKnownName="Peer Mesh"
+                LastKnownLocation="Roniz.Networking.Modeling.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="5444bfcb-9b24-42ad-ada8-e6d6f66c8ba9"
+                LastKnownName="ExecutionOccurrenceSpecification14"
+                LastKnownLocation="Roniz.Networking.Modeling.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="53b542e0-9097-4e88-b1a4-ccc40b709fd9"
+                LastKnownName="ExecutionOccurrenceSpecification13"
+                LastKnownLocation="Roniz.Networking.Modeling.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="2897f08d-7160-4c19-b89b-c6244f4fb8b7"
+                LastKnownName="MessageOccurrenceSpecification16"
+                LastKnownLocation="Roniz.Networking.Modeling.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="53b542e0-9097-4e88-b1a4-ccc40b709fd9"
+            name="ExecutionOccurrenceSpecification13">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="403f4668-b6d1-4987-ba19-2800c817aa4d"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="Roniz.Networking.Modeling.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="f58408bf-31e7-4af1-b11f-2fac1d5a6558"
+                LastKnownName="Peer Mesh"
+                LastKnownLocation="Roniz.Networking.Modeling.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="365bac04-0ffc-4009-803d-22da52598f7c"
+            name="MessageOccurrenceSpecification15">
+            <covered>
+              <lifelineMoniker
+                Id="b1eb428a-b33a-46eb-a9a5-3214e740ff5b"
+                LastKnownName="Service"
+                LastKnownLocation="Roniz.Networking.Modeling.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="2897f08d-7160-4c19-b89b-c6244f4fb8b7"
+            name="MessageOccurrenceSpecification16">
+            <covered>
+              <lifelineMoniker
+                Id="f58408bf-31e7-4af1-b11f-2fac1d5a6558"
+                LastKnownName="Peer Mesh"
+                LastKnownLocation="Roniz.Networking.Modeling.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="5444bfcb-9b24-42ad-ada8-e6d6f66c8ba9"
+            name="ExecutionOccurrenceSpecification14">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="14e0431b-fd1e-4e7a-9d1f-9daec9a27cce"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="Roniz.Networking.Modeling.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="f58408bf-31e7-4af1-b11f-2fac1d5a6558"
+                LastKnownName="Peer Mesh"
+                LastKnownLocation="Roniz.Networking.Modeling.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="72bb3bea-493c-4cbd-8788-ec06ab7a0988"
+            name="BehaviorExecutionSpecification8">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="b1eb428a-b33a-46eb-a9a5-3214e740ff5b"
+                LastKnownName="Service"
+                LastKnownLocation="Roniz.Networking.Modeling.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="a2e227e8-5c68-4bec-8f0b-f860e5f65519"
+                LastKnownName="ExecutionOccurrenceSpecification16"
+                LastKnownLocation="Roniz.Networking.Modeling.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="b6715cab-dc80-46e4-b5a6-d71cd9f733be"
+                LastKnownName="ExecutionOccurrenceSpecification15"
+                LastKnownLocation="Roniz.Networking.Modeling.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="c714bfd5-c85e-4371-8c28-85a92a90bc2a"
+                LastKnownName="MessageOccurrenceSpecification18"
+                LastKnownLocation="Roniz.Networking.Modeling.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="b6715cab-dc80-46e4-b5a6-d71cd9f733be"
+            name="ExecutionOccurrenceSpecification15">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="9909cb20-4dd1-413e-9904-fdd5f73f5bf3"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="Roniz.Networking.Modeling.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="b1eb428a-b33a-46eb-a9a5-3214e740ff5b"
+                LastKnownName="Service"
+                LastKnownLocation="Roniz.Networking.Modeling.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="1df7d33b-7a85-48d9-9342-aad87bcc8b9d"
+            name="MessageOccurrenceSpecification17">
+            <covered>
+              <lifelineMoniker
+                Id="f58408bf-31e7-4af1-b11f-2fac1d5a6558"
+                LastKnownName="Peer Mesh"
+                LastKnownLocation="Roniz.Networking.Modeling.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="c714bfd5-c85e-4371-8c28-85a92a90bc2a"
+            name="MessageOccurrenceSpecification18">
+            <covered>
+              <lifelineMoniker
+                Id="b1eb428a-b33a-46eb-a9a5-3214e740ff5b"
+                LastKnownName="Service"
+                LastKnownLocation="Roniz.Networking.Modeling.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="a2e227e8-5c68-4bec-8f0b-f860e5f65519"
+            name="ExecutionOccurrenceSpecification16">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="4343670a-7e7b-4b21-9f1b-57ec57fa8ae7"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="Roniz.Networking.Modeling.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="b1eb428a-b33a-46eb-a9a5-3214e740ff5b"
+                LastKnownName="Service"
+                LastKnownLocation="Roniz.Networking.Modeling.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+        </fragments>
+        <lifelines>
+          <lifeline
+            Id="b1eb428a-b33a-46eb-a9a5-3214e740ff5b"
+            name="Service"
+            isActor="false"
+            lifelineDisplayName="Service">
+            <topLevelOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="c30a0097-ccdb-4d30-afe9-8dfcc5bc6eb8"
+                LastKnownName="MessageOccurrenceSpecification3"
+                LastKnownLocation="Roniz.Networking.Modeling.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="c65f6123-184f-4395-920b-a8c86e7970ba"
+                LastKnownName="ExecutionOccurrenceSpecification3"
+                LastKnownLocation="Roniz.Networking.Modeling.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="609eabf9-b1b9-47ca-bd6e-a3e0fa9f8b77"
+                LastKnownName="ExecutionOccurrenceSpecification4"
+                LastKnownLocation="Roniz.Networking.Modeling.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="8a88637b-1a39-42d3-b48c-ef303d8b6fba"
+                LastKnownName="MessageOccurrenceSpecification7"
+                LastKnownLocation="Roniz.Networking.Modeling.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="49e934c0-4e57-4bdb-98c5-79202f9bc010"
+                LastKnownName="ExecutionOccurrenceSpecification11"
+                LastKnownLocation="Roniz.Networking.Modeling.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="02a38044-fdb9-4939-a268-05dbaa7b5ca3"
+                LastKnownName="ExecutionOccurrenceSpecification12"
+                LastKnownLocation="Roniz.Networking.Modeling.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="365bac04-0ffc-4009-803d-22da52598f7c"
+                LastKnownName="MessageOccurrenceSpecification15"
+                LastKnownLocation="Roniz.Networking.Modeling.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="b6715cab-dc80-46e4-b5a6-d71cd9f733be"
+                LastKnownName="ExecutionOccurrenceSpecification15"
+                LastKnownLocation="Roniz.Networking.Modeling.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="a2e227e8-5c68-4bec-8f0b-f860e5f65519"
+                LastKnownName="ExecutionOccurrenceSpecification16"
+                LastKnownLocation="Roniz.Networking.Modeling.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline
+            Id="f58408bf-31e7-4af1-b11f-2fac1d5a6558"
+            name="Peer Mesh"
+            isActor="false"
+            lifelineDisplayName="Peer Mesh">
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker
+                Id="5c60f5d3-04d4-4dd5-9e43-db6d33c24587"
+                LastKnownName="ExecutionOccurrenceSpecification5"
+                LastKnownLocation="Roniz.Networking.Modeling.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="9764cdb7-2d75-4ca2-a7f0-53b02bf2a946"
+                LastKnownName="ExecutionOccurrenceSpecification6"
+                LastKnownLocation="Roniz.Networking.Modeling.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="8dc658f6-dcba-455b-9045-3dea6a9b8c1b"
+                LastKnownName="ExecutionOccurrenceSpecification7"
+                LastKnownLocation="Roniz.Networking.Modeling.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="fd04a9ea-d1ae-4dd0-8ab2-560fa4783209"
+                LastKnownName="ExecutionOccurrenceSpecification8"
+                LastKnownLocation="Roniz.Networking.Modeling.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="0c1a65d0-0201-4635-825c-f1be931e98ef"
+                LastKnownName="MessageOccurrenceSpecification13"
+                LastKnownLocation="Roniz.Networking.Modeling.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="53b542e0-9097-4e88-b1a4-ccc40b709fd9"
+                LastKnownName="ExecutionOccurrenceSpecification13"
+                LastKnownLocation="Roniz.Networking.Modeling.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="5444bfcb-9b24-42ad-ada8-e6d6f66c8ba9"
+                LastKnownName="ExecutionOccurrenceSpecification14"
+                LastKnownLocation="Roniz.Networking.Modeling.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="1df7d33b-7a85-48d9-9342-aad87bcc8b9d"
+                LastKnownName="MessageOccurrenceSpecification17"
+                LastKnownLocation="Roniz.Networking.Modeling.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline
+            Id="1d12884d-8eaf-4a18-b3d1-2eff2cdfb747"
+            name="Service Resolver"
+            isActor="false"
+            lifelineDisplayName="Service Resolver" />
+        </lifelines>
+        <messages>
+          <message
+            Id="7acccde6-1705-4358-bc7a-4ddc8a80ea1b"
+            name="Resolve own address using Client.EndpointResolver"
+            messageKind="Complete"
+            messageSort="SynchCall"
+            createSelfMessage="true">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="c30a0097-ccdb-4d30-afe9-8dfcc5bc6eb8"
+                LastKnownName="MessageOccurrenceSpecification3"
+                LastKnownLocation="Roniz.Networking.Modeling.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="9da36bba-63d6-4960-bc43-90dc08bbc42f"
+                LastKnownName="MessageOccurrenceSpecification4"
+                LastKnownLocation="Roniz.Networking.Modeling.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="bd208914-2305-43f5-8ff9-931d3ffcc58c"
+            name="Announce presence to all the peer mesh of it's own network info"
+            messageKind="Complete"
+            messageSort="AsynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="cbeee42d-02ab-4119-978c-8ecc71e15566"
+                LastKnownName="MessageOccurrenceSpecification5"
+                LastKnownLocation="Roniz.Networking.Modeling.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="328a5893-568c-4db4-8600-90876939e5f2"
+                LastKnownName="MessageOccurrenceSpecification6"
+                LastKnownLocation="Roniz.Networking.Modeling.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="187aecb6-61e4-4249-bbbc-b3bc39da48c6"
+            name="Send hearth bit Message to it's neighbours"
+            messageKind="Complete"
+            messageSort="AsynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="8a88637b-1a39-42d3-b48c-ef303d8b6fba"
+                LastKnownName="MessageOccurrenceSpecification7"
+                LastKnownLocation="Roniz.Networking.Modeling.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="616fafbb-9592-43c4-8bd6-1fea904faa52"
+                LastKnownName="MessageOccurrenceSpecification8"
+                LastKnownLocation="Roniz.Networking.Modeling.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="4cf1a9d4-b182-4130-9c7c-708392b6b432"
+            name="store other services state like announce , leave etc"
+            messageKind="Complete"
+            messageSort="AsynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="0c1a65d0-0201-4635-825c-f1be931e98ef"
+                LastKnownName="MessageOccurrenceSpecification13"
+                LastKnownLocation="Roniz.Networking.Modeling.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="d7558703-6287-4109-b105-735564cde21e"
+                LastKnownName="MessageOccurrenceSpecification14"
+                LastKnownLocation="Roniz.Networking.Modeling.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="59120a06-c390-44ac-b013-9f7d05bb9dc7"
+            name="Send leave message when go offline"
+            messageKind="Complete"
+            messageSort="AsynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="365bac04-0ffc-4009-803d-22da52598f7c"
+                LastKnownName="MessageOccurrenceSpecification15"
+                LastKnownLocation="Roniz.Networking.Modeling.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="2897f08d-7160-4c19-b89b-c6244f4fb8b7"
+                LastKnownName="MessageOccurrenceSpecification16"
+                LastKnownLocation="Roniz.Networking.Modeling.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="99660e1e-89a9-4d22-a29e-156570d9b38c"
+            name="receive hearth bit - from other peer - refresh its status"
+            messageKind="Complete"
+            messageSort="AsynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="1df7d33b-7a85-48d9-9342-aad87bcc8b9d"
+                LastKnownName="MessageOccurrenceSpecification17"
+                LastKnownLocation="Roniz.Networking.Modeling.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="c714bfd5-c85e-4371-8c28-85a92a90bc2a"
+                LastKnownName="MessageOccurrenceSpecification18"
+                LastKnownLocation="Roniz.Networking.Modeling.uml" />
+            </receiveEvent>
+          </message>
+        </messages>
+      </interaction>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="56777658-1a8b-476b-9192-b91d87552231"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="a611e8ba-811a-4f1f-83fc-f3763ae28941"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="757c6aad-5c1e-45f3-ae65-95ece9daa2ae"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="fc465c07-5b41-4d2b-bdf0-857f9e5da543"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="f2a01452-fce0-49e3-92ff-1f1e35a93c19"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="321c6b0a-8606-4cc0-b272-d330acbf5e1c"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="1e7b10c1-f905-4bb6-b7e5-5193b418949a"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="08bcff57-46c2-4972-b1da-40910c8dc942"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="403f4668-b6d1-4987-ba19-2800c817aa4d"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="14e0431b-fd1e-4e7a-9d1f-9daec9a27cce"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="9909cb20-4dd1-413e-9904-fdd5f73f5bf3"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="4343670a-7e7b-4b21-9f1b-57ec57fa8ae7"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+  </packagedElements>
+  <primitiveType
+    Id="220a3521-e091-4221-bae9-3ef9018e845c"
+    name="Integer"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+    name="Boolean"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+    name="String"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="3ab42e7d-4969-445a-b209-471f5cb8209c"
+    name="UnlimitedNatural"
+    isAbstract="false"
+    isLeaf="false" />
+</modelStoreModel>

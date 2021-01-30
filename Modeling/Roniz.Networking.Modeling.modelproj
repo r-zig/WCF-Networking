@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9e3e0b9a-da22-40ed-8b6e-79a55198e221}</ProjectGuid>
+    <ArchitectureToolsVersion>1.0.0.0</ArchitectureToolsVersion>
+    <Name>Roniz.Networking.Modeling</Name>
+    <RootNamespace>Roniz.Networking.Modeling</RootNamespace>
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v10.0\ArchitectureTools\Microsoft.VisualStudio.TeamArchitect.ModelingProject.targets" />
+  <ItemGroup>
+    <Content Include="ServiceSequenceDiagram.sequencediagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ServiceSequenceDiagram.sequencediagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>ServiceSequenceDiagram.sequencediagram</DependentUpon>
+    </Content>
+    <Folder Include="ModelDefinition\" />
+    <Content Include="ClientActivityDiagram.activitydiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ClientActivityDiagram.activitydiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>ClientActivityDiagram.activitydiagram</DependentUpon>
+    </Content>
+    <Content Include="ClientSequenceDiagram.sequencediagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ClientSequenceDiagram.sequencediagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>ClientSequenceDiagram.sequencediagram</DependentUpon>
+    </Content>
+    <Content Include="ModelDefinition\Roniz.Networking.Modeling.uml">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+</Project>

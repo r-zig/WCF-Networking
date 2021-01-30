@@ -1,0 +1,18 @@
+﻿<package xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <metadata xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <id>NetworkingUtilities.Server</id>
+    <version>1.0.0.8</version>
+    <authors>Ron zigelman</authors>
+    <licenseUrl>http://www.roniz.net/2011/07/my-work-license.html</licenseUrl>
+    <projectUrl>http://networking.codeplex.com</projectUrl>
+    <!--<iconUrl>http://ICON_URL_HERE_OR_DELETE_THIS_LINE</iconUrl>-->
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>
+      Provide server side utilities and for networking .NET related projects such as: Discover your own external address.
+    </description>
+  </metadata>
+  <files>
+    <file src="..\..\Service\bin\release\*.dll" target="lib\NET40" />
+    <file src="app.config.transform" target="content" />
+  </files>
+</package>

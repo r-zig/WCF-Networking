@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Assembly>
+  <Method Name="Roniz.Networking.Service.ServiceResolver.InitializeSockets()">
+    <Outcome Kind="Requires" Outcome="Top" Message="requires unproven: port &gt;= 0" PrimaryILOffset="25" MethodILOffset="76" />
+    <Outcome Kind="Requires" Outcome="Top" Message="requires unproven: port &lt;= 0xffff" PrimaryILOffset="3b" MethodILOffset="76" />
+    <Outcome Kind="Requires" Outcome="Top" Message="requires unproven: port &gt;= 0" PrimaryILOffset="25" MethodILOffset="a8" />
+    <Outcome Kind="Requires" Outcome="Top" Message="requires unproven: port &lt;= 0xffff" PrimaryILOffset="3b" MethodILOffset="a8" />
+  </Method>
+</Assembly>
